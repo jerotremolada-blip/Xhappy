@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: bisque;
+}
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: cadetblue;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4 12 rgba(0, 0, 0, 0.4);
+}
+.imagen-logo {
+  padding: 15px;
+  margin-block: 15px;
+}
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: Black;
+  display: block;
+  padding: 15px 20px;
+}
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  list-style: none;
+  width: 200px;
+}
+.Menu-Horizontal li a:hover {
+  color: red;
+  background-color: cadetblue;
+  border-radius: 20px;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+.Seccion-Ignacio {
+  align-items: center;
+  text-align: center;
+}
+.Formulario {
+  align-items: center;
+  text-align: center;
+}
+.Altura-Ig {
+  list-style: none;
+}
